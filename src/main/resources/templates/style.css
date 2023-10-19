@@ -43,6 +43,9 @@
     opacity: 1;
     transition: 0.3s;
     border-radius: 20px;
+    --bs-box-shadow: 0px 4px 4px 0px #00000040;
+    --bs-btn-padding-y: .75rem;
+    --bs-btn-padding-x: 2.75rem;
 }
 
 .register:hover {background: #8b7d16
