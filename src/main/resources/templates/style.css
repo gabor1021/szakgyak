@@ -1,0 +1,50 @@
+.menuitem{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 85px;
+    height: 36px;
+}
+.brandicon{
+    margin-top: -10px;
+    margin-left: -50px;
+}
+.title_class{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 59px;
+
+}
+.subtitle_class{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37px;
+    margin-top: 30px;
+}
+.p_class{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 30px;
+}
+.div_class{
+    width: 100%;
+    padding: 30px;
+}
+
+.register{
+    color: #000000;
+    background: #E8D422;
+    border: none;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.register:hover {background: #8b7d16
+}
