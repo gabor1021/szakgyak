@@ -8,8 +8,8 @@
     height: 36px;
 }
 .brandicon{
-    margin-top: -10px;
-    margin-left: -50px;
+    margin: -15px -25px -100px;
+    filter: invert(100%);
 }
 .title_class{
     color: #FFFFFF;
@@ -48,5 +48,5 @@
     --bs-btn-padding-x: 2.75rem;
 }
 
-.register:hover {background: #8b7d16
+.register:hover {filter: brightness(50%);
 }
