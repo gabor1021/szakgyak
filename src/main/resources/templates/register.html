@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="/templates/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar sticky-top border-bottom border-black" style="background: #5D3C81">
+    <div class="container-fluid">
+        <ul class="navbar-nav ms-auto flex-row my-3">
+            <li class="nav-item">
+                <a href="#" class="nav-link menuitem align-items-center d-flex">Főoldal</a>
+            </li>
+            <li class="nav-item me-3">
+                <a href="#" class="nav-link menuitem align-items-center d-flex">Hogyan működik?</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link menuitem align-items-center d-flex">Belépés</a>
+            </li>
+            <li class="nav-item me-5">
+                <a href="#" class="nav-link menuitem align-items-center d-flex">Regisztráció</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div style="padding-left: 100px;">
+    <div class="container-fluid row">
+        <div class="col-sm-5">
+            <h2 class="card-title register_title_class my-5">Regisztráció</h2>
+            <div class="my-3">
+                <label class="form-label label_class">Felhasználónév</label>
+                <input type="text" class="form-control border-black input_class" placeholder="tesztuser33">
+            </div>
+            <div class="my-3">
+                <label class="form-label label_class">Email cím</label>
+                <input type="email" class="form-control border-black input_class" placeholder="tesztuser33@gmail.com">
+            </div>
+            <div class="my-3">
+                <label class="form-label label_class">Lakhely</label>
+                <select class="form-select border-black input_class" aria-label="Default select example">
+                    <option selected>Pécs</option>
+                    <option value="1">Komló</option>
+                    <option value="2">Miskolc</option>
+                    <option value="3">Budapest</option>
+                </select>
+            </div>
+            <div class="my-3">
+                <label class="form-label label_class">Jelszó</label>
+                <input type="password" class="form-control border-black input_class" placeholder="*********">
+            </div>
+            <div class="my-3">
+                <label class="form-label label_class">Jelszó megerősítése</label>
+                <input type="password" class="form-control border-black input_class" placeholder="*********">
+            </div>
+            <div class="my-3">
+                <button href="#" class="shadow custom_shadow small_button float-end">
+                    Regisztrálok
+                </button>
+            </div>
+        </div>
+        <div class="col-sm-7">
+            <svg class="float-end" width="381" height="965" viewBox="0 0 381 965" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="365.5" cy="482.5" rx="365.5" ry="482.5" fill="#5D3C81"/>
+            </svg>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
