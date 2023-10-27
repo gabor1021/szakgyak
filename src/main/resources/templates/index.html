@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Title</title>
+    <title>Csapattárs.hu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link href="style.css" rel="stylesheet">
+    <link href="" th:href="@{/css/style.css}" rel="stylesheet">
 </head>
 
 <body>
@@ -24,44 +24,29 @@
     </div>
     <ul class="navbar-nav ms-auto flex-row my-3">
         <li class="nav-item">
-            <a href="#" class="nav-link menuitem align-items-center d-flex">Főoldal</a>
+            <a href="/" class="nav-link menuitem align-items-center d-flex">Főoldal</a>
         </li>
         <li class="nav-item me-3">
-            <a href="#" class="nav-link menuitem align-items-center d-flex">Hogyan működik?</a>
+            <a href="#hogyanmukodik" class="nav-link menuitem align-items-center d-flex">Hogyan működik?</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link menuitem align-items-center d-flex">Belépés</a>
+            <a href="/login" class="nav-link menuitem align-items-center d-flex">Belépés</a>
         </li>
         <li class="nav-item me-5">
-            <a href="register.html" class="nav-link menuitem align-items-center d-flex">Regisztráció</a>
+            <a href="/register" class="nav-link menuitem align-items-center d-flex">Regisztráció</a>
         </li>
     </ul>
 </nav>
 
-<div class="container-fluid div_class" style="background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('Backgroundpic.png'),no-repeat;
-    background-size: cover;
-    padding-bottom: 100px;">
-    <div class="w-50" style="margin-top: 100px;
-        margin-left: 50px;">
+<div class="container-fluid div_class" th:style="|background:linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('@{/image/Backgroundpic.png}') no-repeat;padding-bottom: 100px;background-size: cover;|">
+    <div class="w-50" style="margin-top: 100px;margin-left: 50px;">
         <h2 class="card-title title_class">
             Találj csapattársakat és mehet a zsuga!
         </h2>
-        <p class="mt-5" style="color: #FFFFFF;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 18px;
-        text-align: left;">
+        <p class="mt-5 p_class2">
             Regisztrálj és találj társakat a hétvégi (vagy hétközi) focihoz.
         </p>
-        <button href="register.html" class="rounded-4 shadow mt-5 custom_shadow" style="width: 258px;
-                height: 63px;
-                top: 543px;
-                left: 107px;
-                font-size: 22px;
-                font-weight: 600;
-                line-height: 25px;
-                letter-spacing: 0em;
-                text-align: center;">
+        <button onclick="window.location.href='/register'" class="rounded-4 shadow mt-5 custom_shadow button_text1">
             Regisztrálok
         </button>
     </div>
@@ -69,7 +54,7 @@
 </div>
 
 <div class="container-fluid text-center div_class" style="background: #5D3C81;">
-    <h2 class="title_class card-title text-center">Hogyan működik?</h2>
+    <h2 class="title_class card-title text-center" id="hogyanmukodik">Hogyan működik?</h2>
     <div class="row flex-row">
         <div class="col-sm-4 m-auto d-flex">
             <svg width="292" height="292" viewBox="0 0 292 292" fill="none" xmlns="http://www.w3.org/2000/svg" class="m-auto" style="width: 100%;">
@@ -134,27 +119,13 @@
     <h2 class="title_class card-title" style="color: #5D3C81;">
         Mire vársz?
     </h2>
-    <h2 class="title_class card-subtitle" style="color: #5D3C81;
-                font-size: 128px;
-                font-weight: 600;
-                line-height: 118px;
-                margin-top: 100px;">
+    <h2 class="title_class card-subtitle regisztralj" style="">
         REGISZTRÁLJ
     </h2>
-    <h2 class="card-subtitle title_class" style="color: #5D3C81;
-                font-size: 128px;
-                font-weight: 400;
-                line-height: 118px;
-                margin-bottom: 100px;">
+    <h2 class="card-subtitle title_class megma" style="">
         még ma!
     </h2>
-    <button href="register.html" class=" rounded-4 shadow mt-5 custom_shadow" style="font-size: 32px;
-        font-weight: 600;
-        line-height: 36px;
-        width: 751px;
-        height: 99px;
-        top: 2288px;
-        left: 359px;">
+    <button onclick="window.location.href='/register'" class=" rounded-4 shadow mt-5 custom_shadow button_text2" style="">
         Regisztrálok
     </button>
 </div>

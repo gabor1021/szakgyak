@@ -11,6 +11,24 @@
     margin: -15px -25px -100px;
     filter: invert(100%);
 }
+.button_text1{
+    width: 258px;
+    height: 63px;
+    top: 543px;
+    left: 107px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.p_class2{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+}
 .title_class{
     color: #FFFFFF;
     font-size: 64px;
@@ -81,4 +99,27 @@
     line-height: 18px;
     letter-spacing: 0;
     text-align: center;
+}
+.regisztralj{
+    color: #5D3C81;
+    font-size: 128px;
+    font-weight: 600;
+    line-height: 118px;
+    margin-top: 100px;
+}
+.button_text2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 751px;
+    height: 99px;
+    top: 2288px;
+    left: 359px;
+}
+.megma{
+    color: #5D3C81;
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 118px;
+    margin-bottom: 100px;
 }
