@@ -10,12 +10,17 @@ public class DemoController {
     public String index() {
         return "index";
     }
+
     @GetMapping("/register")
     public String register() {
         return "register";
     }
+
     @GetMapping("/login")
     public String login() {
         return "login";
     }
+
+    @GetMapping("/profile")
+    public String profile() { return "profile"; }
 }
