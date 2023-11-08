@@ -22,5 +22,7 @@ public class DemoController {
     }
 
     @GetMapping("/profile")
-    public String profile() { return "profile"; }
+    public String profile() {
+        return "profile";
+    }
 }
