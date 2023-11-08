@@ -25,4 +25,8 @@ public class DemoController {
     public String profile() {
         return "profile";
     }
+    @GetMapping("/profileView")
+    public String profileView() {
+        return "profileView";
+    }
 }
