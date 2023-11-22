@@ -29,4 +29,17 @@ public class DemoController {
     public String profileView() {
         return "profileView";
     }
+
+    @GetMapping("/viewEvent")
+    public String viewEvent() {
+        return "viewEvent";
+    }
+    @GetMapping("/dashboard")
+    public String dashboard() {
+        return "dashboard";
+    }
+    @GetMapping("/groups")
+    public String groups() {
+        return "groups";
+    }
 }

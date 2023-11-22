@@ -31,7 +31,7 @@
 
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last value) to control the darkness */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .offcanvas-header,
 .offcanvas-body{
@@ -272,4 +272,46 @@
 }
 .profile-list{
     list-style-type: none;
+}
+/*------------------------------DASHBOARD-------------------------------*/
+.bg-purple{
+    background-color: #5d3c81;
+}
+
+.th-border{
+    border-right: 2px white solid;
+}
+
+.th-border-mobile{
+    border-bottom: 2px white solid;
+}
+
+table{
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.thead-text{
+    font-family: League Spartan;
+    font-size: 24px;
+    line-height: 22px;
+}
+
+.tbody-text {
+    font-family: League Spartan;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.text-purple{
+    color: #5d3c81;
+}
+
+tr{
+    height: 60px;
+}
+
+.table-select{
+    width: 80%;
+    height: 100%;
 }
